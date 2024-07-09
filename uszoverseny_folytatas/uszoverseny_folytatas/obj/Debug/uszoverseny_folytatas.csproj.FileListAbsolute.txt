@@ -1,0 +1,14 @@
+D:\progi\uszoverseny_folytatas\uszoverseny_folytatas\bin\Debug\uszoverseny_folytatas.exe.config
+D:\progi\uszoverseny_folytatas\uszoverseny_folytatas\bin\Debug\uszoverseny_folytatas.exe
+D:\progi\uszoverseny_folytatas\uszoverseny_folytatas\bin\Debug\uszoverseny_folytatas.pdb
+D:\progi\uszoverseny_folytatas\uszoverseny_folytatas\obj\Debug\uszoverseny_folytatas.csproj.AssemblyReference.cache
+D:\progi\uszoverseny_folytatas\uszoverseny_folytatas\obj\Debug\uszoverseny_folytatas.InditoForm.resources
+D:\progi\uszoverseny_folytatas\uszoverseny_folytatas\obj\Debug\uszoverseny_folytatas.Properties.Resources.resources
+D:\progi\uszoverseny_folytatas\uszoverseny_folytatas\obj\Debug\uszoverseny_folytatas.csproj.GenerateResource.cache
+D:\progi\uszoverseny_folytatas\uszoverseny_folytatas\obj\Debug\uszoverseny_folytatas.csproj.CoreCompileInputs.cache
+D:\progi\uszoverseny_folytatas\uszoverseny_folytatas\obj\Debug\uszoverseny_folytatas.exe
+D:\progi\uszoverseny_folytatas\uszoverseny_folytatas\obj\Debug\uszoverseny_folytatas.pdb
+D:\progi\uszoverseny_folytatas\uszoverseny_folytatas\obj\Debug\uszoverseny_folytatas.EredmenyForm.resources
+D:\progi\uszoverseny_folytatas\uszoverseny_folytatas\obj\Debug\uszoverseny_folytatas.NevjegyForm.resources
+D:\progi\uszoverseny_folytatas\uszoverseny_folytatas\obj\Debug\uszoverseny_folytatas.VersenyForm.resources
+D:\progi\uszoverseny_folytatas\uszoverseny_folytatas\obj\Debug\uszoverseny_folytatas.ZaszloForm.resources

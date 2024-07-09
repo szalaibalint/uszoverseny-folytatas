@@ -1,0 +1,189 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\progi\\uszoverseny_folytatas\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D7197F71-F7B4-4360-A315-FB63C0204B68}|uszoverseny_folytatas\\uszoverseny_folytatas.csproj|d:\\progi\\uszoverseny_folytatas\\uszoverseny_folytatas\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D7197F71-F7B4-4360-A315-FB63C0204B68}|uszoverseny_folytatas\\uszoverseny_folytatas.csproj|solutionrelative:uszoverseny_folytatas\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7197F71-F7B4-4360-A315-FB63C0204B68}|uszoverseny_folytatas\\uszoverseny_folytatas.csproj|D:\\progi\\uszoverseny_folytatas\\uszoverseny_folytatas\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7197F71-F7B4-4360-A315-FB63C0204B68}|uszoverseny_folytatas\\uszoverseny_folytatas.csproj|solutionrelative:uszoverseny_folytatas\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7197F71-F7B4-4360-A315-FB63C0204B68}|uszoverseny_folytatas\\uszoverseny_folytatas.csproj|d:\\progi\\uszoverseny_folytatas\\uszoverseny_folytatas\\versenyform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D7197F71-F7B4-4360-A315-FB63C0204B68}|uszoverseny_folytatas\\uszoverseny_folytatas.csproj|solutionrelative:uszoverseny_folytatas\\versenyform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7197F71-F7B4-4360-A315-FB63C0204B68}|uszoverseny_folytatas\\uszoverseny_folytatas.csproj|d:\\progi\\uszoverseny_folytatas\\uszoverseny_folytatas\\versenyform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7197F71-F7B4-4360-A315-FB63C0204B68}|uszoverseny_folytatas\\uszoverseny_folytatas.csproj|solutionrelative:uszoverseny_folytatas\\versenyform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7197F71-F7B4-4360-A315-FB63C0204B68}|uszoverseny_folytatas\\uszoverseny_folytatas.csproj|d:\\progi\\uszoverseny_folytatas\\uszoverseny_folytatas\\eredmenyform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7197F71-F7B4-4360-A315-FB63C0204B68}|uszoverseny_folytatas\\uszoverseny_folytatas.csproj|solutionrelative:uszoverseny_folytatas\\eredmenyform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7197F71-F7B4-4360-A315-FB63C0204B68}|uszoverseny_folytatas\\uszoverseny_folytatas.csproj|d:\\progi\\uszoverseny_folytatas\\uszoverseny_folytatas\\zaszloform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D7197F71-F7B4-4360-A315-FB63C0204B68}|uszoverseny_folytatas\\uszoverseny_folytatas.csproj|solutionrelative:uszoverseny_folytatas\\zaszloform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7197F71-F7B4-4360-A315-FB63C0204B68}|uszoverseny_folytatas\\uszoverseny_folytatas.csproj|d:\\progi\\uszoverseny_folytatas\\uszoverseny_folytatas\\zaszloform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7197F71-F7B4-4360-A315-FB63C0204B68}|uszoverseny_folytatas\\uszoverseny_folytatas.csproj|solutionrelative:uszoverseny_folytatas\\zaszloform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7197F71-F7B4-4360-A315-FB63C0204B68}|uszoverseny_folytatas\\uszoverseny_folytatas.csproj|d:\\progi\\uszoverseny_folytatas\\uszoverseny_folytatas\\eredmenyform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D7197F71-F7B4-4360-A315-FB63C0204B68}|uszoverseny_folytatas\\uszoverseny_folytatas.csproj|solutionrelative:uszoverseny_folytatas\\eredmenyform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7197F71-F7B4-4360-A315-FB63C0204B68}|uszoverseny_folytatas\\uszoverseny_folytatas.csproj|d:\\progi\\uszoverseny_folytatas\\uszoverseny_folytatas\\nevjegyform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D7197F71-F7B4-4360-A315-FB63C0204B68}|uszoverseny_folytatas\\uszoverseny_folytatas.csproj|solutionrelative:uszoverseny_folytatas\\nevjegyform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7197F71-F7B4-4360-A315-FB63C0204B68}|uszoverseny_folytatas\\uszoverseny_folytatas.csproj|d:\\progi\\uszoverseny_folytatas\\uszoverseny_folytatas\\nevjegyform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7197F71-F7B4-4360-A315-FB63C0204B68}|uszoverseny_folytatas\\uszoverseny_folytatas.csproj|solutionrelative:uszoverseny_folytatas\\nevjegyform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VersenyForm.cs",
+              "DocumentMoniker": "D:\\progi\\uszoverseny_folytatas\\uszoverseny_folytatas\\VersenyForm.cs",
+              "RelativeDocumentMoniker": "uszoverseny_folytatas\\VersenyForm.cs",
+              "ToolTip": "D:\\progi\\uszoverseny_folytatas\\uszoverseny_folytatas\\VersenyForm.cs",
+              "RelativeToolTip": "uszoverseny_folytatas\\VersenyForm.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAmwDkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T08:40:36.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VersenyForm.cs [Design]",
+              "DocumentMoniker": "D:\\progi\\uszoverseny_folytatas\\uszoverseny_folytatas\\VersenyForm.cs",
+              "RelativeDocumentMoniker": "uszoverseny_folytatas\\VersenyForm.cs",
+              "ToolTip": "D:\\progi\\uszoverseny_folytatas\\uszoverseny_folytatas\\VersenyForm.cs [Design]",
+              "RelativeToolTip": "uszoverseny_folytatas\\VersenyForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T08:27:25.77Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\progi\\uszoverseny_folytatas\\uszoverseny_folytatas\\Form1.cs",
+              "RelativeDocumentMoniker": "uszoverseny_folytatas\\Form1.cs",
+              "ToolTip": "D:\\progi\\uszoverseny_folytatas\\uszoverseny_folytatas\\Form1.cs",
+              "RelativeToolTip": "uszoverseny_folytatas\\Form1.cs",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAcwFsAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T09:36:46.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\progi\\uszoverseny_folytatas\\uszoverseny_folytatas\\Form1.cs",
+              "RelativeDocumentMoniker": "uszoverseny_folytatas\\Form1.cs",
+              "ToolTip": "D:\\progi\\uszoverseny_folytatas\\uszoverseny_folytatas\\Form1.cs [Design]",
+              "RelativeToolTip": "uszoverseny_folytatas\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T09:36:16.505Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ZaszloForm.cs [Design]",
+              "DocumentMoniker": "D:\\progi\\uszoverseny_folytatas\\uszoverseny_folytatas\\ZaszloForm.cs",
+              "RelativeDocumentMoniker": "uszoverseny_folytatas\\ZaszloForm.cs",
+              "ToolTip": "D:\\progi\\uszoverseny_folytatas\\uszoverseny_folytatas\\ZaszloForm.cs [Design]",
+              "RelativeToolTip": "uszoverseny_folytatas\\ZaszloForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T09:01:49.496Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ZaszloForm.cs",
+              "DocumentMoniker": "D:\\progi\\uszoverseny_folytatas\\uszoverseny_folytatas\\ZaszloForm.cs",
+              "RelativeDocumentMoniker": "uszoverseny_folytatas\\ZaszloForm.cs",
+              "ToolTip": "D:\\progi\\uszoverseny_folytatas\\uszoverseny_folytatas\\ZaszloForm.cs",
+              "RelativeToolTip": "uszoverseny_folytatas\\ZaszloForm.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAowD0AAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T09:02:51.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EredmenyForm.cs [Design]",
+              "DocumentMoniker": "D:\\progi\\uszoverseny_folytatas\\uszoverseny_folytatas\\EredmenyForm.cs",
+              "RelativeDocumentMoniker": "uszoverseny_folytatas\\EredmenyForm.cs",
+              "ToolTip": "D:\\progi\\uszoverseny_folytatas\\uszoverseny_folytatas\\EredmenyForm.cs [Design]",
+              "RelativeToolTip": "uszoverseny_folytatas\\EredmenyForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T08:27:32.957Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EredmenyForm.cs",
+              "DocumentMoniker": "D:\\progi\\uszoverseny_folytatas\\uszoverseny_folytatas\\EredmenyForm.cs",
+              "RelativeDocumentMoniker": "uszoverseny_folytatas\\EredmenyForm.cs",
+              "ToolTip": "D:\\progi\\uszoverseny_folytatas\\uszoverseny_folytatas\\EredmenyForm.cs",
+              "RelativeToolTip": "uszoverseny_folytatas\\EredmenyForm.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAowBUAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T08:53:19.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NevjegyForm.cs [Design]",
+              "DocumentMoniker": "D:\\progi\\uszoverseny_folytatas\\uszoverseny_folytatas\\NevjegyForm.cs",
+              "RelativeDocumentMoniker": "uszoverseny_folytatas\\NevjegyForm.cs",
+              "ToolTip": "D:\\progi\\uszoverseny_folytatas\\uszoverseny_folytatas\\NevjegyForm.cs [Design]",
+              "RelativeToolTip": "uszoverseny_folytatas\\NevjegyForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T08:33:53.242Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NevjegyForm.cs",
+              "DocumentMoniker": "D:\\progi\\uszoverseny_folytatas\\uszoverseny_folytatas\\NevjegyForm.cs",
+              "RelativeDocumentMoniker": "uszoverseny_folytatas\\NevjegyForm.cs",
+              "ToolTip": "D:\\progi\\uszoverseny_folytatas\\uszoverseny_folytatas\\NevjegyForm.cs",
+              "RelativeToolTip": "uszoverseny_folytatas\\NevjegyForm.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAUwBcAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T08:34:06.883Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

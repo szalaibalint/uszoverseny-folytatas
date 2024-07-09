@@ -1,0 +1,2 @@
+Hosszú Katinka;Magyarország;magyar
+Kiss Balázs;Lengyelország;lengyel
