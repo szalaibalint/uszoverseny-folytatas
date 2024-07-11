@@ -1,2 +1,5 @@
+Aljand Triin;Észtország;eszt
 Hosszú Katinka;Magyarország;magyar
-Kiss Balázs;Lengyelország;lengyel
+Jakabos Zsuzsanna;Magyarország;magyar
+Martina Granstrom;Svédország;sved
+Snildal Ingvild;Norvégia;norveg

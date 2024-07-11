@@ -33,12 +33,16 @@
             // 
             // txtNevjegy
             // 
+            this.txtNevjegy.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtNevjegy.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.txtNevjegy.Location = new System.Drawing.Point(53, 61);
+            this.txtNevjegy.HideSelection = false;
+            this.txtNevjegy.Location = new System.Drawing.Point(12, 62);
             this.txtNevjegy.Name = "txtNevjegy";
             this.txtNevjegy.ReadOnly = true;
-            this.txtNevjegy.Size = new System.Drawing.Size(266, 35);
-            this.txtNevjegy.TabIndex = 0;
+            this.txtNevjegy.Size = new System.Drawing.Size(343, 28);
+            this.txtNevjegy.TabIndex = 3;
+            this.txtNevjegy.TabStop = false;
+            this.txtNevjegy.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // NevjegyForm
             // 

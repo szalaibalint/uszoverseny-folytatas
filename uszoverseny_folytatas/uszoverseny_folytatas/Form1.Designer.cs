@@ -32,11 +32,12 @@
             this.fájlToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.MegnyitasMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.MentesMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.kilépésToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.KilepesMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.VersenyMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.EredmenyMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.NevjegyMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -58,29 +59,32 @@
             this.fájlToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.MegnyitasMenuItem,
             this.MentesMenuItem,
-            this.kilépésToolStripMenuItem});
+            this.KilepesMenuItem});
             this.fájlToolStripMenuItem.Name = "fájlToolStripMenuItem";
             this.fájlToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
             this.fájlToolStripMenuItem.Text = "Fájl";
             // 
             // MegnyitasMenuItem
             // 
+            this.MegnyitasMenuItem.Image = global::uszoverseny_folytatas.Properties.Resources.folder_icon;
             this.MegnyitasMenuItem.Name = "MegnyitasMenuItem";
-            this.MegnyitasMenuItem.Size = new System.Drawing.Size(129, 22);
+            this.MegnyitasMenuItem.Size = new System.Drawing.Size(180, 22);
             this.MegnyitasMenuItem.Text = "Megnyitás";
             this.MegnyitasMenuItem.Click += new System.EventHandler(this.MegnyitasMenuItem_Click);
             // 
             // MentesMenuItem
             // 
             this.MentesMenuItem.Name = "MentesMenuItem";
-            this.MentesMenuItem.Size = new System.Drawing.Size(129, 22);
+            this.MentesMenuItem.Size = new System.Drawing.Size(180, 22);
             this.MentesMenuItem.Text = "Mentés";
+            this.MentesMenuItem.Click += new System.EventHandler(this.MentesMenuItem_Click);
             // 
-            // kilépésToolStripMenuItem
+            // KilepesMenuItem
             // 
-            this.kilépésToolStripMenuItem.Name = "kilépésToolStripMenuItem";
-            this.kilépésToolStripMenuItem.Size = new System.Drawing.Size(129, 22);
-            this.kilépésToolStripMenuItem.Text = "Kilépés";
+            this.KilepesMenuItem.Name = "KilepesMenuItem";
+            this.KilepesMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.KilepesMenuItem.Text = "Kilépés";
+            this.KilepesMenuItem.Click += new System.EventHandler(this.KilepesMenuItem_Click);
             // 
             // VersenyMenuItem
             // 
@@ -134,11 +138,12 @@
         private System.Windows.Forms.ToolStripMenuItem fájlToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem MegnyitasMenuItem;
         private System.Windows.Forms.ToolStripMenuItem MentesMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem kilépésToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem KilepesMenuItem;
         private System.Windows.Forms.ToolStripMenuItem VersenyMenuItem;
         private System.Windows.Forms.ToolStripMenuItem EredmenyMenuItem;
         private System.Windows.Forms.ToolStripMenuItem NevjegyMenuItem;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        private System.Windows.Forms.SaveFileDialog saveFileDialog1;
     }
 }
 

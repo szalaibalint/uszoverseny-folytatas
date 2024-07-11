@@ -23,6 +23,8 @@ namespace uszoverseny_folytatas
             InitializeComponent();
             openFileDialog1.InitialDirectory = Environment.CurrentDirectory;
             openFileDialog1.FileName = "versenyzok.txt";
+            saveFileDialog1.InitialDirectory = Environment.CurrentDirectory;
+            saveFileDialog1.FileName = "eredmenyek.txt";
             VersenyMenuItem.Enabled = false;
             EredmenyMenuItem.Enabled = false;
             MentesMenuItem.Enabled = false;
@@ -102,9 +104,51 @@ namespace uszoverseny_folytatas
 
         private void NevjegyMenuItem_Click(object sender, EventArgs e)
         {
-            string keszito = "Szalai";
+            string keszito = "Szalai Bálint";
             NevjegyForm about = new NevjegyForm(keszito);
             about.ShowDialog();
+        }
+
+        private void KilepesMenuItem_Click(object sender, EventArgs e)
+        {
+            DialogResult valasz = MessageBox.Show("Biztosan kilép?", "Megerősítés", MessageBoxButtons.YesNo);
+            if (valasz == DialogResult.Yes)
+            {
+                this.Close();
+            }
+        }
+
+        private void MentesMenuItem_Click(object sender, EventArgs e)
+        {
+            if (saveFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                StreamWriter iroCsatorna = null;
+                try
+                {
+                    string fajlNev = saveFileDialog1.FileName;
+                    iroCsatorna = new StreamWriter(fajlNev);
+                    FajlbaIr(iroCsatorna);
+                }
+                catch (Exception)
+                {
+                    MessageBox.Show("Hiba a fájl írásakor", "Hiba");
+                }
+                finally
+                {
+                    if (iroCsatorna != null)
+                    {
+                        iroCsatorna.Close();
+                    }
+                }
+            }
+        }
+
+        private void FajlbaIr(StreamWriter iroCsatorna)
+        {
+            foreach (Versenyzo versenyzo in versenyzok)
+            {
+                iroCsatorna.WriteLine(versenyzo.Fajlba());
+            }
         }
     }
 
@@ -130,6 +174,11 @@ namespace uszoverseny_folytatas
         public void Versenyez(TimeSpan idoEredmeny)
         {
             this.IdoEredmeny = idoEredmeny;
+        }
+
+        public string Fajlba()
+        {
+            return this.Nev + ";" + this.Orszag + ";" + this.IdoEredmeny;
         }
 
         public override string ToString()

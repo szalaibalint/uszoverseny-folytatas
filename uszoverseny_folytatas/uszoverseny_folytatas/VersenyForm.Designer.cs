@@ -44,7 +44,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(52, 54);
+            this.label1.Location = new System.Drawing.Point(28, 29);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(29, 13);
             this.label1.TabIndex = 0;
@@ -53,7 +53,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(42, 151);
+            this.label2.Location = new System.Drawing.Point(29, 133);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(59, 13);
             this.label2.TabIndex = 1;
@@ -62,7 +62,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(51, 239);
+            this.label3.Location = new System.Drawing.Point(29, 185);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(71, 13);
             this.label3.TabIndex = 2;
@@ -70,7 +70,7 @@
             // 
             // btnVerseny
             // 
-            this.btnVerseny.Location = new System.Drawing.Point(456, 69);
+            this.btnVerseny.Location = new System.Drawing.Point(419, 27);
             this.btnVerseny.Name = "btnVerseny";
             this.btnVerseny.Size = new System.Drawing.Size(75, 23);
             this.btnVerseny.TabIndex = 3;
@@ -80,7 +80,7 @@
             // 
             // btnKovetkezo
             // 
-            this.btnKovetkezo.Location = new System.Drawing.Point(456, 229);
+            this.btnKovetkezo.Location = new System.Drawing.Point(419, 182);
             this.btnKovetkezo.Name = "btnKovetkezo";
             this.btnKovetkezo.Size = new System.Drawing.Size(75, 23);
             this.btnKovetkezo.TabIndex = 4;
@@ -90,18 +90,19 @@
             // 
             // txtVersenyzo
             // 
-            this.txtVersenyzo.Location = new System.Drawing.Point(214, 154);
+            this.txtVersenyzo.Location = new System.Drawing.Point(116, 131);
             this.txtVersenyzo.Name = "txtVersenyzo";
-            this.txtVersenyzo.Size = new System.Drawing.Size(100, 20);
+            this.txtVersenyzo.ReadOnly = true;
+            this.txtVersenyzo.Size = new System.Drawing.Size(263, 20);
             this.txtVersenyzo.TabIndex = 5;
             // 
             // dtpIdoeredmeny
             // 
             this.dtpIdoeredmeny.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.dtpIdoeredmeny.Location = new System.Drawing.Point(186, 239);
+            this.dtpIdoeredmeny.Location = new System.Drawing.Point(116, 182);
             this.dtpIdoeredmeny.Name = "dtpIdoeredmeny";
             this.dtpIdoeredmeny.ShowUpDown = true;
-            this.dtpIdoeredmeny.Size = new System.Drawing.Size(200, 20);
+            this.dtpIdoeredmeny.Size = new System.Drawing.Size(166, 20);
             this.dtpIdoeredmeny.TabIndex = 6;
             this.dtpIdoeredmeny.Value = new System.DateTime(2024, 7, 9, 0, 0, 0, 0);
             // 
@@ -109,16 +110,19 @@
             // 
             this.cBoxUszasnem.FormattingEnabled = true;
             this.cBoxUszasnem.Items.AddRange(new object[] {
-            "pillango",
-            "valami mas"});
-            this.cBoxUszasnem.Location = new System.Drawing.Point(283, 68);
+            "mellúszás",
+            "gyorsúszás",
+            "pillangó úszás",
+            "hűtúszás",
+            "vegyes"});
+            this.cBoxUszasnem.Location = new System.Drawing.Point(226, 27);
             this.cBoxUszasnem.Name = "cBoxUszasnem";
-            this.cBoxUszasnem.Size = new System.Drawing.Size(121, 21);
+            this.cBoxUszasnem.Size = new System.Drawing.Size(153, 21);
             this.cBoxUszasnem.TabIndex = 7;
             // 
             // numTav
             // 
-            this.numTav.Location = new System.Drawing.Point(163, 72);
+            this.numTav.Location = new System.Drawing.Point(80, 27);
             this.numTav.Maximum = new decimal(new int[] {
             1000,
             0,
@@ -136,7 +140,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(243, 78);
+            this.label4.Location = new System.Drawing.Point(150, 29);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(15, 13);
             this.label4.TabIndex = 9;
@@ -146,7 +150,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.Color.PeachPuff;
+            this.ClientSize = new System.Drawing.Size(528, 228);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.numTav);
             this.Controls.Add(this.cBoxUszasnem);
@@ -157,8 +162,11 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "VersenyForm";
-            this.Text = "VersenyForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Verseny";
             ((System.ComponentModel.ISupportInitialize)(this.numTav)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

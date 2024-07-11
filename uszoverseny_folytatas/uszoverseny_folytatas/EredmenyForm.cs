@@ -33,10 +33,13 @@ namespace uszoverseny_folytatas
         {
             try
             {
-                Versenyzo versenyzo = (Versenyzo)lstResztvevok.SelectedItem;
-                txtRajtszam.Text = versenyzo.RajtSzam;
-                txtOrszag.Text = versenyzo.Orszag;
-                txtIdoeredmeny.Text = new DateTime(versenyzo.IdoEredmeny.Ticks).ToString("mm:ss");
+                if (lstResztvevok.SelectedIndex != -1)
+                {
+                    Versenyzo versenyzo = (Versenyzo)lstResztvevok.SelectedItem;
+                    txtRajtszam.Text = versenyzo.RajtSzam;
+                    txtOrszag.Text = versenyzo.Orszag;
+                    txtIdoeredmeny.Text = new DateTime(versenyzo.IdoEredmeny.Ticks).ToString("mm:ss");
+                }
             }
             catch (Exception)
             {
@@ -46,24 +49,31 @@ namespace uszoverseny_folytatas
 
         private void rdBtNevsor_CheckedChanged(object sender, EventArgs e)
         {
-            lstResztvevok.Sorted = false;
-            lstResztvevok.Items.Clear();
-            Versenyzo temp;
-            for (int i = 0; i < versenyzok.Count - 1; i++)
+            if (!rdBtNevsor.Checked)
             {
-                for (int j = i + 1; j < versenyzok.Count; j++)
+                lstResztvevok.Sorted = false;
+                lstResztvevok.Items.Clear();
+                Versenyzo temp;
+                for (int i = 0; i < versenyzok.Count - 1; i++)
                 {
-                    if (versenyzok[i].IdoEredmeny > versenyzok[j].IdoEredmeny)
+                    for (int j = i + 1; j < versenyzok.Count; j++)
                     {
-                        temp = versenyzok[i];
-                        versenyzok[i] = versenyzok[j];
-                        versenyzok[j] = temp;
+                        if (versenyzok[i].IdoEredmeny > versenyzok[j].IdoEredmeny)
+                        {
+                            temp = versenyzok[i];
+                            versenyzok[i] = versenyzok[j];
+                            versenyzok[j] = temp;
+                        }
                     }
                 }
+                foreach (Versenyzo versenyzo in versenyzok)
+                {
+                    lstResztvevok.Items.Add(versenyzo);
+                }
             }
-            foreach (Versenyzo versenyzo in versenyzok)
+            else
             {
-                lstResztvevok.Items.Add(versenyzo);
+                lstResztvevok.Sorted = true;
             }
         }
 
@@ -72,6 +82,11 @@ namespace uszoverseny_folytatas
             ZaszloForm zaszloForm = new ZaszloForm();
             zaszloForm.Fogad(versenyzok);
             zaszloForm.ShowDialog();
+        }
+
+        private void btnBezar_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

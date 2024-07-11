@@ -33,19 +33,24 @@
             // 
             // pnlKozponti
             // 
-            this.pnlKozponti.Location = new System.Drawing.Point(66, 63);
+            this.pnlKozponti.BackColor = System.Drawing.SystemColors.Control;
+            this.pnlKozponti.Location = new System.Drawing.Point(25, 23);
             this.pnlKozponti.Name = "pnlKozponti";
-            this.pnlKozponti.Size = new System.Drawing.Size(411, 247);
+            this.pnlKozponti.Size = new System.Drawing.Size(357, 247);
             this.pnlKozponti.TabIndex = 0;
             // 
             // ZaszloForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.Color.PeachPuff;
+            this.ClientSize = new System.Drawing.Size(406, 292);
             this.Controls.Add(this.pnlKozponti);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "ZaszloForm";
-            this.Text = "ZaszloForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Résztvevő országok";
             this.Load += new System.EventHandler(this.ZaszloForm_Load);
             this.ResumeLayout(false);
 
